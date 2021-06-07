@@ -1,4 +1,6 @@
 //simple sparkle_system
+// nie dziala
+// do zrobienia
 float gx = 0;
 void setup(){
   size(800, 400);
