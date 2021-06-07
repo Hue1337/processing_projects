@@ -30,5 +30,6 @@ void ar(float x, float y, boolean col){
   int s1=50, s2=50;
    if(col == true) {fill(237, 233, 216);}
    else{ fill(64, 46, 16);}
+   noStroke();
    rect(x, y, s1, s2);
 }
