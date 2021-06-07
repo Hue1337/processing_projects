@@ -11,14 +11,13 @@ void draw(){
 void fullboard(){
  float x=50, y=50;
  float a = 50;
-  boolean b = false;
+  boolean b = true; // white piecec at the bottom of the board
   for(int i=0; i<8; ++i){
     for(int j=0; j<8; ++j){
      ar(x, y, b);
      if(b == false) b = true;
      else b = false;
      x += a;
-     //println("X="+x+" y="+y+"\n");  
     }
     if(b == false) b = true;
      else b = false;
@@ -29,8 +28,7 @@ void fullboard(){
 
 void ar(float x, float y, boolean col){
   int s1=50, s2=50;
-   if(col == true) {fill(166, 155, 111);}
-   else{ fill(99, 99, 95);}
-    println("s1="+s1+" s2="+s2);
+   if(col == true) {fill(237, 233, 216);}
+   else{ fill(64, 46, 16);}
    rect(x, y, s1, s2);
 }
