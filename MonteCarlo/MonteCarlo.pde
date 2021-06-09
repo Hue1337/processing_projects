@@ -24,5 +24,10 @@
      bubble.display(c);
    }
    z = (x/(a))*4;
-   println("PI="+z);
+   PFont f;
+   f = createFont("Arial", 20);
+   textFont(f, 20);
+   fill(0);
+   textAlign(CENTER);
+   text("Pi="+z, width/2, 25);
  }
