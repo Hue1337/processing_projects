@@ -14,8 +14,8 @@
    background(#fffdd1);
    square.display();
    circle.display(square);
-   MC(9000, circle, square);
-   if(b)delay(4000);  // removing loading time for the 1st animation
+   MC(10000, circle, square);
+   if(b)delay(3000);  // removing loading time for the 1st animation
    else b = true;
  }
  
