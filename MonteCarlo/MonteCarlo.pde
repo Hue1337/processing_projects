@@ -8,7 +8,7 @@
  }
  
  void draw(){
-   background(#A6C7D3);
+   background(#fffdd1);
    square.display();
    circle.display(square);
    MonteCarlo(9000, circle, square);
@@ -29,5 +29,5 @@
    textFont(f, 20);
    fill(0);
    textAlign(CENTER);
-   text("Pi="+z, width/2, 25);
+   text("Pi ≈ "+z, width/2, 25);
  }
