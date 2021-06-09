@@ -2,8 +2,8 @@ class Bubble{
   float x, y, l;
   color col1, col2;
   Bubble(Square s){
-   x = random(s.x+s.s, width-s.x-s.s);
-   y = random(s.y+s.s, height-s.y-s.s);
+   x = random(s.x+s.s, width-s.x-s.s-l/2);
+   y = random(s.y+s.s, height-s.y-s.s-l/2);
    l = 3;
    col1 = color(255, 0, 0);
    col2 = color(0, 255, 0);
