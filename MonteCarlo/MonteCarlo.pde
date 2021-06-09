@@ -14,12 +14,12 @@
    background(#fffdd1);
    square.display();
    circle.display(square);
-   MonteCarlo(9000, circle, square);
+   MC(9000, circle, square);
    if(b)delay(4000);  // removing loading time for the 1st animation
    else b = true;
  }
  
- void MonteCarlo(int a, Circle c, Square s){
+ void MC(int a, Circle c, Square s){
    float x=0, z;
    Bubble bubble;
    for(int i=0; i<a; ++i){
