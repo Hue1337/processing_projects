@@ -1,5 +1,8 @@
  Square square;
  Circle circle;
+ 
+ boolean b = false;
+ 
  void setup(){
   size(500, 500);
   frameRate(60);
@@ -12,7 +15,8 @@
    square.display();
    circle.display(square);
    MonteCarlo(9000, circle, square);
-   delay(4000);
+   if(b)delay(4000);  // removing loading time for the 1st animation
+   else b = true;
  }
  
  void MonteCarlo(int a, Circle c, Square s){
