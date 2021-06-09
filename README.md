@@ -2,4 +2,4 @@
 
 Monte Calro method:
 
-![MonteCarlo](/HueOne/processing_projects/blob/main/images/MonteCarlo.png)
+![MonteCarlo](images/MonteCarlo.png)
