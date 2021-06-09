@@ -1,4 +1,5 @@
 # processing_projects
 
 Monte Calro method:
-![MonteCarlo]("/images/MonteCarlo.png")
+
+![MonteCarlo]("https://github.com/HueOne/processing_projects/blob/main/images/MonteCarlo.png")
