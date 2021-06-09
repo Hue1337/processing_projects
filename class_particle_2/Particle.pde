@@ -26,18 +26,15 @@ class Particle{
  }
  
  void overlapping(Particle c){
-   println("Not overlapping "+col);
+   
    if(dist(x, y, c.x, c.y) < (r/2 + c.r/2)){
      col = color(255, 0,0,100);
      c.col = color(62, 255, 192, 100);
-      println(c.col +"  "+ col);
-     
-   //color(62, 255, 192, 100);  
-   //color(255, 62, 91, 100);
- }
+   }
 
-   else
+   else{
      c.col = color(0,0,0,0);
      col = color(255, 255, 255, 0);
- }
+   }
+  }
 }
