@@ -1,4 +1,4 @@
 # processing_projects
 Monte Carlo:
 
-![MonteCarlo](images/MonteCarlo.png)
+![MonteCarlo](images/MonteCarlo1.png)
