@@ -17,7 +17,7 @@ class Bubble{
   }
   
   boolean inside(Circle c){
-    if(dist(x, y, c.x, c.y) < c.l/2) return true;
+    if(dist(x, y, c.x, c.y) <= c.l/2) return true;
     else return false;
   }
 }    
