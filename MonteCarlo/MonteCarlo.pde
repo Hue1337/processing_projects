@@ -2,6 +2,9 @@
  Circle circle;
  
  boolean b = false;
+ boolean display_shapes = false;
+ 
+ int how_many = 20000;
  
  void setup(){
   size(500, 500);
@@ -12,9 +15,11 @@
  
  void draw(){
    background(#fffdd1);
-   square.display();
-   circle.display(square);
-   MC(10000, circle, square);
+   if(display_shapes){
+     square.display();
+     circle.display(square);
+   }
+   MC(how_many, circle, square);
    if(b)delay(3000);  // removing loading time for the 1st animation
    else b = true;
  }
