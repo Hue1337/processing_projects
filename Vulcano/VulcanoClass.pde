@@ -1,6 +1,6 @@
-class Vulcan{
+class VulcanoClass{
  float x1, x2, x3, x4, y1, y2, l;
-   Vulcan(){
+   VulcanoClass(){
        // szerokosc = 30
        l = 50;
        x1 = width/2 + l+l+l/2;

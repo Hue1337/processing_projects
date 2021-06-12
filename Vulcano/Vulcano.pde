@@ -1,5 +1,5 @@
 Bubble arr[] = new Bubble[100];
-Vulcan vul = new Vulcan();
+VulcanoClass vul = new VulcanoClass();
 int limit = 100;
 void setup(){
   size(400, 350);
