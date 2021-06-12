@@ -11,10 +11,10 @@ void setup(){
 
 void draw(){
  background(0); 
+ vul.display();
  for(int i=0; i<limit; ++i){
    arr[i].display();
    arr[i].move();
    if(arr[i].p <=0) arr[i] = new Bubble();
  }
- //vul.display();
 }
