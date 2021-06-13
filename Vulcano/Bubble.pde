@@ -1,5 +1,5 @@
 class Bubble{
- float x, y, p=255, l, z, h_limit, h, p_change;
+ float x, y, p=random(50, 255), l, z, h_limit, h, p_change;
  color col = color(255, 255, 255, p); 
  boolean b;
  Bubble(){
@@ -38,15 +38,5 @@ class Bubble{
     y += v; 
    }
    x += z;
- }
- 
- void reset(){
-   b = true;
-  x = width/2;
-  y = height/4;
-  l = 10;
-  h_limit = random(20, 40);
-  h = random(0.5, 1.1);
-  z = random(-0.5, 0.5);
  }
 }
